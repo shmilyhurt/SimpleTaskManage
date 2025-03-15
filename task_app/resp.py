@@ -1,4 +1,7 @@
 class HttpResponse:
+    """
+    自定义相应格式
+    """
     def __init__(self, code, data, msg):
         self.code = code
         self.data = data

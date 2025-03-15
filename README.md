@@ -1,5 +1,33 @@
 # SimpleTaskManage
 
+代码结构:
+```
+task_app api的主要文档 包括
+api的逻辑代码（版本控制）
+model的定义 
+原生sql 
+swagger的引入和设置
+ 
+tests 包括
+单元测试代码
+
+其他文件 包括 
+项目启动文件
+docker相关文件
+gunicorn配置文件等
+```
+代码设计:
+```
+1.使用orm定义models，设计完成的sql语句
+2.使用flask_restx接入swagger,并按照代码规格设计api的接口模式
+3.在model中添加字段验证
+4.在api中进行正常或者异常处理
+5.自定义状态码和响应数据格式
+6.api的版本控制
+7.完成的单元测试
+8.容器化的启动方案
+```
+如何启动：
 ```
 在开发环境中，可以在命令行使用flask run启动该项目
 

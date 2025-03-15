@@ -4,6 +4,9 @@ from .. import db
 
 
 class Task(db.Model):
+    """
+    任务的基本模型
+    """
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(255), nullable=False)
     description = db.Column(db.Text)
