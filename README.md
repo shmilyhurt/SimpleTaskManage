@@ -8,3 +8,4 @@
 使用docker-compse 启动容器
 
 ```
+![image](https://github.com/user-attachments/assets/765fac16-48a6-4820-9024-6867c5d3d009)
